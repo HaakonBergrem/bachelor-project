@@ -16,6 +16,7 @@ The system consists of two separate applications for a bike rental company:
 
 ## Project structure 
 
+```text
 bachelor-project/
 │
 ├── service-booking-by-ntnu/          # Customer booking system
@@ -52,7 +53,7 @@ bachelor-project/
 │   └── ...                           # Config files (Next.js, Tailwind, etc.)
 │
 └── README.md
-
+```
 
 ## Running the project
 The supabase database used in the project is no longer running. If the system is to be used, a new database has to be created (the db model is in the `/images` folder). 
