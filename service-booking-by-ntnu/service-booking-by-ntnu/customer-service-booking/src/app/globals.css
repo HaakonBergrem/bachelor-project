@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.react-datepicker-custom {
+  width: 80vw;
+  max-width: 400px;
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+.react-datepicker-custom .react-datepicker {
+  width: 100%;
+}
+
+.react-datepicker-custom .react-datepicker__month-container {
+  width: 100%;
+}
+
+.react-datepicker-custom .react-datepicker__header {
+  font-size: 1.2em;
+}
+
+.react-datepicker-custom .react-datepicker__day-name,
+.react-datepicker-custom .react-datepicker__day,
+.react-datepicker-custom .react-datepicker__time-name {
+  line-height: 2.5em;
+  box-sizing: border-box;
+  width: 14.28%;
+  margin: 0;
+  text-align: center;
+  padding: 0.5em;
+}
+
+
+.react-datepicker__day--outside-month {
+  visibility: hidden;
+}
+
+.react-datepicker__day--weekend {
+  color: red !important;
+  pointer-events: none;
+
+}
+
+
+
+
+
